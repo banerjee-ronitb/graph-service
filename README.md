@@ -11,7 +11,8 @@ This is an effort to demonstrate a social networking application that has users,
 
 This service showcases integration with Neo4j graph database. User should send access token in Authorization header to access the APIs
 
-if 
+If user A is a friend of user B, by default, user B is also a friend a user A.
+This service provides endpoints to get paginated list of followers/friends.
  
 <h3> Getting Started </h3>
 
