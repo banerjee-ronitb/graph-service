@@ -3,7 +3,7 @@
 <h2> Description </h2>
 This is an effort to demonstrate a social networking application that has users, followers, posts and feeds. This repository is built to handle user follower and following related functionalities.
 
-- For user auth, please refer to <a href="https://github.com/banerjee-ronitb/auth-service"> Graph Service </a>
+- For user auth, please refer to <a href="https://github.com/banerjee-ronitb/auth-service"> Auth Service </a>
 - For user posts, please refer to <a href="https://github.com/banerjee-ronitb/post-service"> Post Service </a>
 - For user feeds, please refer to <a href="https://github.com/banerjee-ronitb/newsfeed-service"> Newsfeed Service </a>
 
@@ -34,4 +34,6 @@ Step 1: mvn clean install
 ```bash
 Step 2: mvn spring-boot:run
 ```
+<h4> Roadmap </h4>
 
+Add an additional repository to showcase deployment using Kuberenetes.
